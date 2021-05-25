@@ -604,14 +604,10 @@ export const ES = {
         "<li> Las acerías tienen el doble de capacidad </li> <li> Las plantas de acero inoxidable tienen el doble de capacidad </li> <li> Transporte gratuito de hierro </li> <li> El transporte de acero cuesta un 50% menos de combustible </li> <li> Comience con el doble de capacidad de venta automática </li> <li> Sin modificadores de mosaicos </li> ",
     Oslo: "Oslo",
     StPetersburg: "San Petersburgo",
-    StPetersburgBonus:
-        "<li> Las minas de uranio tienen el doble de producción </li> <li> Las plantas de enriquecimiento de uranio tienen el doble de capacidad </li> <li> El transporte de uranio cuesta 50% menos de combustible </li> <li> Transporte de armas gratis </li> <li> Las fábricas de misiles utilizan uranio enriquecido en lugar de titanio y uranio </li> ",
     Hamburg: "Hamburgo",
     HamburgBonus:
         "<li> Las fábricas de Zeppelin están desbloqueadas </li> <li> Las fábricas de semiconductores tienen el doble de productividad </li> <li> Los astilleros tienen el doble de capacidad </li> <li> Las fábricas de automóviles tienen el doble de capacidad </li> <li> Las fábricas de baterías de iones de litio están desbloqueadas </li> ",
     Toulouse: "Toulouse",
-    ToulouseBonus:
-        "<li> Las minas de titanio tienen el doble de rendimiento </li> <li> Las plantas de enriquecimiento de uranio tienen el doble de productividad </li> <li> Las fábricas de motores a reacción tienen el doble de capacidad </li> <li> Las fábricas de aviones tienen el doble de productividad </ li > <li> Las fábricas de cohetes utilizan uranio en lugar de uranio enriquecido </li> ",
     Rome: "Roma",
     RomeBonus:
         "<li> Los coliseos están desbloqueados </li> <li> Los coliseos tienen el doble de productividad </li> <li> Comience con el centro de políticas de nivel 5 </li> <li> Los teatros de ópera tienen el doble de capacidad </li> <li> Los estudios de grabación también producen cultura </li> ",
@@ -860,8 +856,6 @@ export const ES = {
     AchievementOsaka1000: "Kōshaku",
     AchievementOsaka1000Desc: "Earn 1000 Swiss Money in Osaka in a single run",
     SteamAutoCloudBackup: "Steam Cloud Auto Backup",
-    SteamAutoCloudBackupDesc:
-        "The game saves automatically to your local save. Your local save is synced to Steam Cloud every 10 minutes. You can force Steam cloud sync at any time.",
     SteamAutoCloudBackupFailed: "Steam Cloud Auto Backup Failed: %{error}",
     SteamManualBackup: "Force Steam Cloud Sync",
     UILoading: "Cargando...",
@@ -971,7 +965,6 @@ export const ES = {
     BuildingResourceConversion: "%{resource} Conversion",
     AllTimeSwissMoneyEarned: "All time Swiss Money earned: %{number}",
     BuildingUpgradeCostDivider: "Building Upgrade Cost Divider",
-    BuildingUpgradeCostDividerDesc: "Divide building construction and upgrade cost by this divider",
     AchievementSoftwareGiant: "Software Giant",
     AchievementSoftwareGiantDesc:
         "Build a level 10 Software Company, level 10 Operating System Inc, level 10 Database Company and level 10 Web Browser on the same map",
@@ -991,4 +984,59 @@ export const ES = {
         "You have logged in on another device, this device is logged out. You can log back in but the other device will be logged out",
     LogBackIn: "Log Back In",
     PlayerTradeNowAllowedV2: "Player trades are not available within %{hour} hours of restoring/importing a save",
+    ServerDisconnected:
+        "You are disconnected from the server, please check your internet connection and restart the game",
+    BuildingUpgradeCostDividerDescV2: "Divide building upgrade cost by this divider",
+    ResourceBoosterBannerDesc:
+        "💡 You currently have %{number} resource boosters - the power and science input of each is scaled to the number of resource boosters you currently have",
+    ResourceBoosterDesc: "Boost the output of adjacent mines",
+    BlockUserChatTitle: "Block %{user}",
+    BlockUserChatAction: "Block",
+    BlockUserChatDesc:
+        "The block will be in effect during this game session and you cannot undo this unless you restart the game",
+    ChangeNameCooldown: "You can only change your name once every %{hour} hours",
+    AtomicBombFactory: "Atomic Bomb Factory",
+    AtomicBomb: "Atomic Bomb",
+    DynamiteFactory: "Dynamite Factory",
+    Dynamite: "Dynamite",
+    NuclearMissileFactory: "Nuclear Missile Factory",
+    NuclearMissile: "Nuclear Missile",
+    LiquidPropellantFactory: "Liquid Propellant Factory",
+    GasPropellantFactory: "Gas Propellant Factory",
+    Propellant: "Propellant",
+    ProjectV2: "Project V-2",
+    ICBMFactory: "ICBM Factory",
+    ICBM: "ICBM",
+    RadarFactory: "Radar Factory",
+    Radar: "Radar",
+    SpaceForceCommand: "Space Force Command",
+    SpaceForce: "Space Force",
+    SteamAutoCloudBackupDescV2:
+        "Your latest progress is saved to Steam Cloud and synced across devices. The game also backs up your save every 10 minutes automatically to Steam Cloud. You can force a backup at any time",
+    SpaceColony: "Space Colony",
+    SpaceColonyInc: "Space Colony",
+    ProjectVostok: "Project Vostok",
+    AdjacentBonusSquare: "Adjacent Bonus Square",
+    AdjacentBonusSquareDesc: "Adjacent bonus is 50% more effective, but tile modifiers scale from -15% to +15%",
+    ResourceBoosterSquare: "Resource Booster Square",
+    ResourceBoosterSquareDesc:
+        "Resource boosters provide 25% more boost but their science input and power usage also increase by 25%",
+    SteelMillx2: "Steel Furnace Modernization",
+    SteelMillx2Desc: "Steel mills and stainless steel plants have 2x capacity but uses 2x power",
+    IronSteelZone: "Iron Steel Zone",
+    IronSteelZoneDesc:
+        "Resource booster provide a %{percent} output bonus to adjacent steel mills or stainless steel plants for each working iron mine it is boosting",
+    FuelDynamite: "Fuel Dynamite",
+    FuelDynamiteDesc: "Dynamite factories use your current fuel instead of oil",
+    StPetersburgBonusV2:
+        "<li>Uranium mines have 2x output</li><li>Uranium enrichment plants have 2x capacity</li><li>Uranium transportation costs 50% less fuel</li><li>Free gun transportation</li><li>Project Vostok has 2x capacity</li>",
+    ToulouseBonusV2:
+        "<li>Titanium mines have 2x output</li><li>Uranium enrichment plants have 2x productivity</li><li>Jet engine factories have 2x capacity</li><li>Aircraft factories have 2x productivity</li><li>Rocket factories have 2x capacity</li>",
+    BuildingPermitsNeededDesc: "This building is not working because you don't have enough building permits",
+    BuildingPermitsNeeded: "Building Permits Needed",
+    BuyMissingPermits: "Buy Missing Permits",
+    GPUIsBusy: "Your GPU is Busy",
+    GPUIsBusyDesc:
+        "Your operating system has paused the game's graphics because the GPU is busy with other tasks. You can reload the game to resume. If it doesn't work, try restarting the game",
+    SaveAndReloadGame: "Save And Reload Game",
 };

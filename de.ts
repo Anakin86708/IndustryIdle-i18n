@@ -1,7 +1,7 @@
 export const DE = {
     Translator: "Übersetzer",
     TranslatorName: "v1rul3nt, Quiipy",
-    Language: "Language",
+    Language: "Sprache",
     ThisLanguage: "Deutsch",
     OK: "OK",
     SteelMill: "Stahlwerk",
@@ -111,9 +111,9 @@ export const DE = {
     SellAll: "verkaufe ALLES",
     Change: "ändern",
     StatisticsBureau: "Statistik Agentur",
-    LogisticsDepartment: "Logistik Insitut",
+    LogisticsDepartment: "Logistik Institut",
     From: "Von",
-    Top20FuelCost: "Top 20 Treibstoffverbraucher",
+    Top20FuelCost: "Top 20 Kraftstoffverbraucher",
     To: "Zu",
     TransportTime: "Transportdauer",
     TopN: "Top %{n}",
@@ -334,9 +334,9 @@ export const DE = {
     InputStrategyAmount: "Menge",
     InputStrategyAmountDesc:
         "Bevorzugen Sie das Lager mit der größten Menge an Ressourcen, unabhängig von der Entfernung",
-    FuelCostSave: "Treibstoffkosten sparen",
+    FuelCostSave: "Kraftstoffkosten sparen",
     FuelCostSaveDesc:
-        "Lagerhäuser sparen im Vergleich zu anderen Gebäuden einen bestimmten Prozentsatz an Treibstoff für den Transport von Ressourcen. Je höher das Level, desto mehr wird gespart",
+        "Lagerhäuser sparen im Vergleich zu anderen Gebäuden einen bestimmten Prozentsatz an Kraftstoff für den Transport von Ressourcen. Je höher das Level, desto mehr wird gespart",
     SoftwareCompany: "Softwareunternehmen",
     Software: "Software",
     ScreenFactory: "Bildschirmfabrik",
@@ -388,11 +388,11 @@ export const DE = {
     HalfTransportSpeed: "Verlangsamen, um zu sparen",
     HalfTransportSpeedDesc:
         "Die Transportgeschwindigkeit wird um 25% verlangsamt und die Kraftstoffkosten um 25% gesenkt.",
-    RefineryMoreOil: "Mehr Treibstoff Mehr Probleme",
+    RefineryMoreOil: "Mehr Kraftstoff Mehr Probleme",
     RefineryMoreOilDesc: "Ölraffinerien produzieren 50% mehr Benzin und 50% weniger Kunststoff",
     StickyInput: "Sticky Input",
     StickyInputDesc:
-        "Gebäude bevorzugen den Transport aus nahen Quellen, anstatt in jedem Zyklus nach der besten Quelle zu suchen (KOSTENLOSE RICHTLINIE)",
+        "Gebäude bevorzugen den Transport aus der vorherigen Quelle(n), anstatt in jedem Zyklus nach der besten Quelle zu suchen (KOSTENLOSE RICHTLINIE)",
     RefineryMorePlastic: "Mehr Plastic Mehr Probleme",
     RefineryMorePlasticDesc: "Ölraffinerien produzieren 50% weniger Benzin und 50% mehr Kunststoff",
     FreeOilTransportDesc: "Der Öltransport kostet keinen Kraftstoff, aber Ölquellen verbrauchen 2x Strom",
@@ -412,7 +412,7 @@ export const DE = {
     AdjacentBonusOnlyOutputDesc:
         "Der Angrenzendungsbonus erfordert nicht mehr Eintrag, verbraucht aber mehr Strom und ist nur zu 50% effektiv",
     IronMine2xOutput: "Schwermetall",
-    IronMine2xOutputDesc: "Eisenminen produzieren 2x Eisen, aber der Eisentransport kostet 2x Treibstoff",
+    IronMine2xOutputDesc: "Eisenminen produzieren 2x Eisen, aber der Eisentransport kostet 2x Kraftstoff",
     SolarPanelAlwaysWork: "Die Sonne geht nie unter",
     SolarPanelAlwaysWorkDesc: "Solarzellen arbeiten 100% der Zeit, produzieren aber 60% weniger Strom",
     SteelScience: "Wissen durch Stahl",
@@ -440,7 +440,7 @@ export const DE = {
     BuildingRecycleDesc:
         "Erhalten Sie die volle Rückerstattung, wenn Sie ein Gebäude innerhalb von 1 Minute nach dem Bau verkaufen",
     CoalPlantFuel: "Kohle Liquidator",
-    CoalPlantFuelDesc: "Kohlekraftwerke verwenden zusätzliche Kohle zur Herstellung von Treibstoff",
+    CoalPlantFuelDesc: "Kohlekraftwerke verwenden zusätzliche Kohle zur Herstellung von Kraftstoff",
     Welcome: "Willkommen",
     SeeTutorialAgain: "Tutorial wiederholen",
     HelpTranslateTheGame: "Hilf das Spiel zu übersetzen",
@@ -550,8 +550,8 @@ export const DE = {
     ProductionMultiplier: "Produktionsmultiplikator",
     ProductionMultiplierDesc:
         "Steigerung der Produktionskapazität aller Gebäude (einschließlich Minen, Fabriken, Kraftwerke, Wissenschafts- und Kulturgebäude)",
-    FuelCostDiscount: "Treibstoffkostenrabatt",
-    FuelCostDiscountDesc: "Gibt einen Rabatt auf die Treibstoffkosten beim Transport von Ressourcen",
+    FuelCostDiscount: "Kraftstoffkostenrabatt",
+    FuelCostDiscountDesc: "Gibt einen Rabatt auf die Kraftstoffkosten beim Transport von Ressourcen",
     AutoSellCapacityMultiplier: "Multiplikator für die automatische Verkaufskapazität",
     AutoSellCapacityMultiplierDesc:
         "Ein Multiplikator, der unabhängig von der aktuellen Kapazität auf Ihre automatische Verkaufskapazität angewendet wird",
@@ -602,14 +602,10 @@ export const DE = {
         "<li> Stahlwerke haben 2x Kapazität </li> <li> Edelstahlwerke haben 2x Kapazität </li> <li> Kostenloser Eisentransport </li> <li> Stahltransport kostet 50% weniger Kraftstoff </li> <li> Beginnen Sie mit 2x automatischer Verkaufskapazität </li> <li> Keine Kachelmodifikatoren </li> ",
     Oslo: "Oslo",
     StPetersburg: "St. Petersburg",
-    StPetersburgBonus:
-        "<li> Uranminen haben 2x Leistung </li> <li> Urananreicherungsanlagen haben 2x Kapazität </li> <li> Urantransport kostet 50% weniger Treibstoff </li> <li> Kostenloser Waffentransport </li> <li> Raketenfabriken verwenden angereichertes Uran anstelle von Titan und Uran </li> ",
     Hamburg: "Hamburg",
     HamburgBonus:
         "<li> Zeppelinfabriken sind freigeschaltet </li> <li> Halbleiterfabriken haben 2x Produktivität </li> <li> Werften haben 2x Kapazität </li> <li> Autofabriken haben 2x Kapazität </li> <li> Li-Ionen-Akkufabriken sind freigeschaltet </li> ",
     Toulouse: "Toulouse",
-    ToulouseBonus:
-        "<li> Titanminen haben 2x Produktion </li> <li> Urananreicherungsanlagen haben 2x Produktivität </li> <li> Düsentriebwerksfabriken haben 2x Kapazität </li> <li> Flugzeugfabriken haben 2x Produktivität </ li > <li> Raketenfabriken verwenden Uran anstelle von angereichertem Uran </li> ",
     Rome: "Rom",
     RomeBonus:
         "<li> Kolosseen sind freigeschaltet </li> <li> Kolosseen haben 2x Produktivität </li> <li> Beginnen Sie mit dem Policy Center der Stufe 5 </li> <li> Opernhäuser haben 2x Kapazität </li> <li> Aufnahmestudios produzieren auch Kultur </li> ",
@@ -771,7 +767,7 @@ export const DE = {
     HideProfitBreakdown: "Gewinnaufschlüsselung ausblenden",
     ProfitBreakdownOutput: "%{res} Erzeugung",
     ProfitBreakdownInput: "%{res} Verbrauch",
-    ProfitBreakdownFuel: "Treibstoffkosten",
+    ProfitBreakdownFuel: "Kraftstoffkosten",
     BuildingProfit: "Gewinn",
     RestoreBackup: "Wiederherstellen",
     SteamLogin: "Melden Sie sich via Steam an",
@@ -796,7 +792,7 @@ export const DE = {
     Fiber: "Glasfaser",
     Achievements: "Errungenschaften",
     AchievementsDesc: "Du hast %{number} von %{total} Errungenschaften erreicht",
-    AchievementsReward: "Belhonung: Schweizer Franken +%{swiss}",
+    AchievementsReward: "Belohnung: Schweizer Franken +%{swiss}",
     AchievementsRewardToast: "Sie haben die Belohnung beansprucht:  Schweizer Franken +%{swiss}",
     AchievementsClaim: "Einsammeln",
     AchievementsToast: "Du hast %{name} erreicht, fordern Sie Ihre Belohnung im Hauptquartier an",
@@ -867,8 +863,6 @@ export const DE = {
     AchievementOsaka1000: "Kōshaku",
     AchievementOsaka1000Desc: "Earn 1000 Swiss Money in Osaka in a single run",
     SteamAutoCloudBackup: "Steam Cloud Auto Sicherung",
-    SteamAutoCloudBackupDesc:
-        "Das Spiel speichert automatisch in Ihrem lokalen Speicher. Ihr lokaler Speicher wird alle 10 Minuten mit Steam Cloud synchronisiert. Sie können die Steam Cloud-Synchronisierung jederzeit erzwingen.",
     SteamAutoCloudBackupFailed: "Steam Cloud Auto Backup fehlgeschlagen: %{error}",
     SteamManualBackup: "Steam Cloud Sync erzwingen",
     UILoading: "Laden...",
@@ -941,8 +935,8 @@ export const DE = {
     MarketNewsFilterInput: "Alle %{res} Verbraucher",
     MarketNewsFilterOutput: "Alle %{res} Erzeuger",
     MarketNewsFilterBoth: "Alle %{res} Verbraucher und Erzeuger",
-    MarketNewsIncrease: "erhöht um %{percent}",
-    MarketNewsDecrease: "verringert um %{percent}",
+    MarketNewsIncrease: " erhöht um %{percent}",
+    MarketNewsDecrease: " verringert um %{percent}",
     MarketNewsBuilding: "Dieses Gebäude wird betroffen von %{num} Neuigkeiten",
     StockholmBonusV2:
         "<li>Einzigartiges Gebäude: Musikproduzent</li><li>Forstbetriebe haben 2x Absatz</li><li>Papierfabriken sind entsperrt</li><li>Schaltungsgießereien haben 2x Produktivität</li><li>Die Politik der Wissenschaft Richtlinie ist kostenlos</li>",
@@ -952,7 +946,7 @@ export const DE = {
     Tutorial4P1:
         "Der Transport von Ressourcen kostet Kraftstoff. Es gibt verschiedene Kraftstoffarten, momentan verwenden Sie <em>petrol⛽</em> als Kraftstoff. Sie haben eine <em>Ölraffinerie</em> welche das Öl auf der Ölquelle verbraucht und Benzin herstellt.<br><br>Die kleinen bewegenden <em>Punkte</em> stellen den Transport der Ressourcen dar. Sie sollten Ihre Gebäudestandorte optimieren, um die Distanz zu minimieren.<br><br><em>Aufwerten</em> deiner Gebäude erhöht deren Produktion, aber erhöht ebenfalls deren Stromverbrauch, sowie die benötigten Ressourcen.",
     Tutorial4P2:
-        "Sie können Ihren Kraftstofftyp im <em>Logitik Insitut🚦</em> ändern- auf dieser Karte, können Sie auch <em>Erdgas</em> als Kraftstoff verwenden.<br><br>Das Logitik Institut zeigt auch Ihre Transportwege an, auf denen der meiste Kraftstoff verbraucht wird - Sie sollten es im Auge behalten.<br><br>Denken Sie daran, <em> sicherzustellen, dass Ihre Kraftstoffproduktion über dem Verbrauch liegt </em>, da sonst Ihre Produktion stoppt, wenn Ihnen der Kraftstoff ausgeht.<br><br>Machen Sie sich in diesem Fall keine Sorgen, Sie können notfalls Treibstoff im Handelszentrum oder bei anderen Spielern kaufen",
+        "Sie können Ihren Kraftstofftyp im <em>Logitik Institut🚦</em> ändern- auf dieser Karte, können Sie auch <em>Erdgas</em> als Kraftstoff verwenden.<br><br>Das Logitik Institut zeigt auch Ihre Transportwege an, auf denen der meiste Kraftstoff verbraucht wird - Sie sollten es im Auge behalten.<br><br>Denken Sie daran, <em> sicherzustellen, dass Ihre Kraftstoffproduktion über dem Verbrauch liegt </em>, da sonst Ihre Produktion stoppt, wenn Ihnen der Kraftstoff ausgeht.<br><br>Machen Sie sich in diesem Fall keine Sorgen, Sie können notfalls Kraftstoff im Handelszentrum oder bei anderen Spielern kaufen",
     Tutorial5P2:
         "<em>Die Statistik Agentur📊</em> bietet einen guten Überblick deiner Produktion. Sie können eine detaillierte Aufschlüsselung Ihrer Ressourcenein- und -ausgabe sehen.<br><br>Es gibt auch viele nützliche Diagramme📈 - Sie sollten sich auf diese beziehen, wenn Sie Ihre Produktion ausbalancieren.<br></br>Dein <em>Geld💰, Stromüberschuss⚡ und Kraftstoffüberschuss⛽</em> -zahlen werden auch in der oberen linken Ecke angezeigt. Wenn eine davon rot wird, sollten Sie untersuchen, was los ist.",
     MusicProducer: "Musikproduzent",
@@ -973,12 +967,12 @@ export const DE = {
     BuildWarningTitleDesc: "%{reason}. Sind Sie sicher, dass Sie auf dieser Zelle zu bauen wollen?",
     BuildWarningBuildAnyway: "Trotzdem bauen",
     ResourceBoosterNotWorking: "⛔ Ressourcen-Verstärker funktionieren nur in der Nähe von Lagerstätten",
-    ResourceBoosterPercentage: "💡 Dieses Gebäude bekommt %{percent} Austragserhörhung von benachbarten Ressourcen-Verstärkern",
+    ResourceBoosterPercentage:
+        "💡 Dieses Gebäude bekommt %{percent} Austragserhörhung von benachbarten Ressourcen-Verstärkern",
     ResourceBoosterBuildings: "Gebäude werden verstärkt",
     BuildingResourceConversion: "%{resource} Umwandlung",
     AllTimeSwissMoneyEarned: "Gesamstmenge Schweizer Franken: %{number}",
     BuildingUpgradeCostDivider: "Gebäude-Upgrade-Kostenteiler",
-    BuildingUpgradeCostDividerDesc: "Teilen Sie die Bau- und Aufrüstungskosten durch diesen Teiler",
     AchievementSoftwareGiant: "Software Gigant",
     AchievementSoftwareGiantDesc:
         "Erstellen Sie auf derselben Karte ein Softwareunternehmen der Stufe 10, ein Betriebssystemunternehmen der Stufe 10, ein Datenbankunternehmen der Stufe 10 und einen Webbrowser der Stufe 10",
@@ -986,15 +980,73 @@ export const DE = {
     AchievementSpaceRaceDesc:
         "Baue auf derselben Karte eine Raketenfabrik der Stufe 10, eine Satellitenfabrik der Stufe 10, eine Raumschifffabrik der Stufe 10 und eine Raumstationsfabrik der Stufe 10",
     AchievementToTheMoon: "Zum Mond",
-    AchievementToTheMoonDesc: "Baue eine Bitcoin-Farm der Stufe 40 und eine Dogecoin-Farm der Stufe 40. Besitze 1B Bitcoin und 1B Dogecoin",
+    AchievementToTheMoonDesc:
+        "Baue eine Bitcoin-Farm der Stufe 40 und eine Dogecoin-Farm der Stufe 40. Besitze 1B Bitcoin und 1B Dogecoin",
     ItsAllGreen: "Alles ist grün",
     ItsAllGreenDesc: "Haben Sie 50 Produktionslinien und überhaupt kein Produktionsdefizit",
     DeepInRed: "Tiefrot",
     DeepInRedDesc: "Haben Sie 50 Produktionslinien mit Produktionsdefizit",
     UseScientificNotation: "Verwenden Sie die wissenschaftliche Zahlen",
-    UseScientificNotationDesc: "Verwenden Sie die wissenschaftliche Zahlen (e Nummernsystem) für Zahlen größer als 999,9T",
+    UseScientificNotationDesc:
+        "Verwenden Sie die wissenschaftliche Zahlen (e Nummernsystem) für Zahlen größer als 999,9T",
     LogoutDescV2:
         "Sie haben sich auf einem anderen Gerät angemeldet, dieses Gerät ist abgemeldet. Sie können sich wieder anmelden, aber das andere Gerät wird abgemeldet ",
-     LogBackIn: "Anmelden",
-    PlayerTradeNowAllowedV2: "Spieler-Trades sind innerhalb von %{hour} nicht verfügbar, nach of Wiederherstellen / Importieren eines Spielstandes",
+    LogBackIn: "Anmelden",
+    PlayerTradeNowAllowedV2:
+        "Spieler-Trades sind innerhalb von %{hour} nicht verfügbar, nach of Wiederherstellen / Importieren eines Spielstandes",
+    ServerDisconnected:
+        "Sie sind vom Server getrennt sind, überprüfen Sie bitte Ihre Internetverbindung und starten Sie das Spiel neu",
+    BuildingUpgradeCostDividerDescV2: "Teilen Sie die Kosten für die Gebäudeerweiterung durch diesen Teiler",
+    ResourceBoosterBannerDesc:
+        "💡 Sie haben derzeit %{number} Ressourcen-Verstärker - Der Strom- und Wissenschaftpunkteverbrauch jedes Verstärkers erhöht sich mit jedem Verstärker den die besitzen.",
+    ResourceBoosterDesc: "Steigern Sie die Leistung benachbarter Minen",
+    BlockUserChatTitle: "Blockiere %{user}",
+    BlockUserChatAction: "Blockieren",
+    BlockUserChatDesc:
+        "Der Block wird während dieser Spielsitzung wirksam sein und Sie können dies nicht rückgängig machen, es sei denn, Sie starten das Spiel neu",
+    ChangeNameCooldown: "Sie können Ihren Namen nur ein mal alle %{hour} ändern",
+    AtomicBombFactory: "Atombombenfabrik",
+    AtomicBomb: "Atombombe",
+    DynamiteFactory: "Dynamit Fabrik",
+    Dynamite: "Dynamit",
+    NuclearMissileFactory: "Atomraketenfabrik",
+    NuclearMissile: "Atomrakete",
+    LiquidPropellantFactory: "Fabrik für flüssige Treibmittel",
+    GasPropellantFactory: "Gas-TreibstoffFabrik",
+    Propellant: "Treibstoff",
+    ProjectV2: "Projekt V-2",
+    ICBMFactory: "Interkontinentalraketenfabrik",
+    ICBM: "Interkontinentalraketen",
+    RadarFactory: "Radarfabrik",
+    Radar: "Radar",
+    SpaceForceCommand: "Space Force Kommando",
+    SpaceForce: "Space Force",
+    SteamAutoCloudBackupDescV2:
+        "Ihr letzter Fortschritt wird in Steam Cloud gespeichert und geräteübergreifend synchronisiert. Das Spiel sichert außerdem alle 10 Minuten automatisch Ihre Speicherung in Steam Cloud. Sie können jederzeit eine Sicherung erzwingen",
+    SpaceColony: "Weltraumkolonie",
+    SpaceColonyInc: "Weltraumkolonieagentur",
+    ProjectVostok: "Projekt Wostok",
+    AdjacentBonusSquare: "Angrenzendes Bonusfeld",
+    AdjacentBonusSquareDesc: "Der angrenzende Bonus ist 50% effektiver, aber die Zellenmodifikatoren skalieren von -15% bis + 15%.",
+    ResourceBoosterSquare: "Ressourcen-Verstärker Quadrat",
+    ResourceBoosterSquareDesc:
+        "Ressourcen-Verstärker sorgen für 25% mehr Boost, aber ihr Wissenschaftspunkte- und Stromverbrauch steigt um 25%",
+    SteelMillx2: "Stahlofenmodernisierung",
+    SteelMillx2Desc: "Stahlwerke und Edelstahlwerke haben eine doppelte Kapazität, verbrauchen jedoch die doppelte Menge Strom",
+    IronSteelZone: "Eisenstahlzone",
+    IronSteelZoneDesc:
+        "Resourcen-Verstärker bieten benachbarten Stahlwerken oder Edelstahlwerken einen Produktionsbonus von %{percent} für jede arbeitende angrenzende Eisenmine",
+    FuelDynamite: "Kraftstoff Dynamit",
+    FuelDynamiteDesc: "Dynamitfabriken verwenden Ihren aktuellen Kraftstoff anstelle von Öl",
+    StPetersburgBonusV2:
+        "<li>Uranminen haben 2x Produktion</li><li>Urananreicherungsanlagen haben eine doppelte Kapazität</li><li>Der Urantransport kostet 50% weniger Kraftstoff</li><li>Kostenloser Waffentransport</li><li>Das Projekt Wostok hat eine Kapazität von 2x</li>",
+    ToulouseBonusV2:
+        "<li>Titanminen haben 2x Prdouktion</li><li>Urananreicherungsanlagen haben eine doppelte Produktivität</li><li>Triebwerksfabriken haben eine Kapazität von 2x</li><li>Flugzeugfabriken haben 2x Produktivität</li><li>Raketenfabriken haben eine Kapazität von 2x</li>",
+    BuildingPermitsNeededDesc: "Dieses Gebäude funktioniert nicht, weil Sie nicht genügend Baugenehmigungen haben",
+    BuildingPermitsNeeded: "Baugenehmigungen erforderlich",
+    BuyMissingPermits: "Fehlende Baugenehmigungen kaufen",
+    GPUIsBusy: "Ihre GPU ist ausgelastet",
+    GPUIsBusyDesc:
+        "Ihr Betriebssystem hat die Grafik des Spiels angehalten, da die GPU mit anderen Aufgaben beschäftigt ist. Sie können das Spiel neu laden, um fortzufahren. Wenn es nicht funktioniert, starte das Spiel neu",
+    SaveAndReloadGame: "Spiel speichern und neu laden",
 };
