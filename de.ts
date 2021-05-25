@@ -392,7 +392,7 @@ export const DE = {
     RefineryMoreOilDesc: "Ölraffinerien produzieren 50% mehr Benzin und 50% weniger Kunststoff",
     StickyInput: "Sticky Input",
     StickyInputDesc:
-        "Gebäude bevorzugen den Transport aus nahen Quellen, anstatt in jedem Zyklus nach der besten Quelle zu suchen (KOSTENLOSE RICHTLINIE)",
+        "Gebäude bevorzugen den Transport aus der vorherigen Quelle(n), anstatt in jedem Zyklus nach der besten Quelle zu suchen (KOSTENLOSE RICHTLINIE)",
     RefineryMorePlastic: "Mehr Plastic Mehr Probleme",
     RefineryMorePlasticDesc: "Ölraffinerien produzieren 50% weniger Benzin und 50% mehr Kunststoff",
     FreeOilTransportDesc: "Der Öltransport kostet keinen Kraftstoff, aber Ölquellen verbrauchen 2x Strom",
@@ -602,14 +602,10 @@ export const DE = {
         "<li> Stahlwerke haben 2x Kapazität </li> <li> Edelstahlwerke haben 2x Kapazität </li> <li> Kostenloser Eisentransport </li> <li> Stahltransport kostet 50% weniger Kraftstoff </li> <li> Beginnen Sie mit 2x automatischer Verkaufskapazität </li> <li> Keine Kachelmodifikatoren </li> ",
     Oslo: "Oslo",
     StPetersburg: "St. Petersburg",
-    StPetersburgBonus:
-        "<li> Uranminen haben 2x Leistung </li> <li> Urananreicherungsanlagen haben 2x Kapazität </li> <li> Urantransport kostet 50% weniger Kraftstoff </li> <li> Kostenloser Waffentransport </li> <li> Raketenfabriken verwenden angereichertes Uran anstelle von Titan und Uran </li> ",
     Hamburg: "Hamburg",
     HamburgBonus:
         "<li> Zeppelinfabriken sind freigeschaltet </li> <li> Halbleiterfabriken haben 2x Produktivität </li> <li> Werften haben 2x Kapazität </li> <li> Autofabriken haben 2x Kapazität </li> <li> Li-Ionen-Akkufabriken sind freigeschaltet </li> ",
     Toulouse: "Toulouse",
-    ToulouseBonus:
-        "<li> Titanminen haben 2x Produktion </li> <li> Urananreicherungsanlagen haben 2x Produktivität </li> <li> Düsentriebwerksfabriken haben 2x Kapazität </li> <li> Flugzeugfabriken haben 2x Produktivität </ li > <li> Raketenfabriken verwenden Uran anstelle von angereichertem Uran </li> ",
     Rome: "Rom",
     RomeBonus:
         "<li> Kolosseen sind freigeschaltet </li> <li> Kolosseen haben 2x Produktivität </li> <li> Beginnen Sie mit dem Policy Center der Stufe 5 </li> <li> Opernhäuser haben 2x Kapazität </li> <li> Aufnahmestudios produzieren auch Kultur </li> ",
@@ -867,8 +863,6 @@ export const DE = {
     AchievementOsaka1000: "Kōshaku",
     AchievementOsaka1000Desc: "Earn 1000 Swiss Money in Osaka in a single run",
     SteamAutoCloudBackup: "Steam Cloud Auto Sicherung",
-    SteamAutoCloudBackupDesc:
-        "Das Spiel speichert automatisch in Ihrem lokalen Speicher. Ihr lokaler Speicher wird alle 10 Minuten mit Steam Cloud synchronisiert. Sie können die Steam Cloud-Synchronisierung jederzeit erzwingen.",
     SteamAutoCloudBackupFailed: "Steam Cloud Auto Backup fehlgeschlagen: %{error}",
     SteamManualBackup: "Steam Cloud Sync erzwingen",
     UILoading: "Laden...",
@@ -941,8 +935,8 @@ export const DE = {
     MarketNewsFilterInput: "Alle %{res} Verbraucher",
     MarketNewsFilterOutput: "Alle %{res} Erzeuger",
     MarketNewsFilterBoth: "Alle %{res} Verbraucher und Erzeuger",
-    MarketNewsIncrease: "erhöht um %{percent}",
-    MarketNewsDecrease: "verringert um %{percent}",
+    MarketNewsIncrease: " erhöht um %{percent}",
+    MarketNewsDecrease: " verringert um %{percent}",
     MarketNewsBuilding: "Dieses Gebäude wird betroffen von %{num} Neuigkeiten",
     StockholmBonusV2:
         "<li>Einzigartiges Gebäude: Musikproduzent</li><li>Forstbetriebe haben 2x Absatz</li><li>Papierfabriken sind entsperrt</li><li>Schaltungsgießereien haben 2x Produktivität</li><li>Die Politik der Wissenschaft Richtlinie ist kostenlos</li>",
@@ -1001,9 +995,58 @@ export const DE = {
     PlayerTradeNowAllowedV2:
         "Spieler-Trades sind innerhalb von %{hour} nicht verfügbar, nach of Wiederherstellen / Importieren eines Spielstandes",
     ServerDisconnected:
-        "You are disconnected from the server, please check your internet connection and restart the game",
-    BuildingUpgradeCostDividerDescV2: "Divide building upgrade cost by this divider",
+        "Sie sind vom Server getrennt sind, überprüfen Sie bitte Ihre Internetverbindung und starten Sie das Spiel neu",
+    BuildingUpgradeCostDividerDescV2: "Teilen Sie die Kosten für die Gebäudeerweiterung durch diesen Teiler",
     ResourceBoosterBannerDesc:
-        "💡 You currently have %{number} resource boosters - the power and science input of each is scaled to the number of resource boosters you currently have",
-    ResourceBoosterDesc: "Boost the output of adjacent mines",
+        "💡 Sie haben derzeit %{number} Ressourcen-Verstärker - Der Strom- und Wissenschaftpunkteverbrauch jedes Verstärkers erhöht sich mit jedem Verstärker den die besitzen.",
+    ResourceBoosterDesc: "Steigern Sie die Leistung benachbarter Minen",
+    BlockUserChatTitle: "Blockiere %{user}",
+    BlockUserChatAction: "Blockieren",
+    BlockUserChatDesc:
+        "Der Block wird während dieser Spielsitzung wirksam sein und Sie können dies nicht rückgängig machen, es sei denn, Sie starten das Spiel neu",
+    ChangeNameCooldown: "Sie können Ihren Namen nur ein mal alle %{hour} ändern",
+    AtomicBombFactory: "Atombombenfabrik",
+    AtomicBomb: "Atombombe",
+    DynamiteFactory: "Dynamit Fabrik",
+    Dynamite: "Dynamit",
+    NuclearMissileFactory: "Atomraketenfabrik",
+    NuclearMissile: "Atomrakete",
+    LiquidPropellantFactory: "Fabrik für flüssige Treibmittel",
+    GasPropellantFactory: "Gas-TreibstoffFabrik",
+    Propellant: "Treibstoff",
+    ProjectV2: "Projekt V-2",
+    ICBMFactory: "Interkontinentalraketenfabrik",
+    ICBM: "Interkontinentalraketen",
+    RadarFactory: "Radarfabrik",
+    Radar: "Radar",
+    SpaceForceCommand: "Space Force Kommando",
+    SpaceForce: "Space Force",
+    SteamAutoCloudBackupDescV2:
+        "Ihr letzter Fortschritt wird in Steam Cloud gespeichert und geräteübergreifend synchronisiert. Das Spiel sichert außerdem alle 10 Minuten automatisch Ihre Speicherung in Steam Cloud. Sie können jederzeit eine Sicherung erzwingen",
+    SpaceColony: "Weltraumkolonie",
+    SpaceColonyInc: "Weltraumkolonieagentur",
+    ProjectVostok: "Projekt Wostok",
+    AdjacentBonusSquare: "Angrenzendes Bonusfeld",
+    AdjacentBonusSquareDesc: "Der angrenzende Bonus ist 50% effektiver, aber die Zellenmodifikatoren skalieren von -15% bis + 15%.",
+    ResourceBoosterSquare: "Ressourcen-Verstärker Quadrat",
+    ResourceBoosterSquareDesc:
+        "Ressourcen-Verstärker sorgen für 25% mehr Boost, aber ihr Wissenschaftspunkte- und Stromverbrauch steigt um 25%",
+    SteelMillx2: "Stahlofenmodernisierung",
+    SteelMillx2Desc: "Stahlwerke und Edelstahlwerke haben eine doppelte Kapazität, verbrauchen jedoch die doppelte Menge Strom",
+    IronSteelZone: "Eisenstahlzone",
+    IronSteelZoneDesc:
+        "Resourcen-Verstärker bieten benachbarten Stahlwerken oder Edelstahlwerken einen Produktionsbonus von %{percent} für jede arbeitende angrenzende Eisenmine",
+    FuelDynamite: "Kraftstoff Dynamit",
+    FuelDynamiteDesc: "Dynamitfabriken verwenden Ihren aktuellen Kraftstoff anstelle von Öl",
+    StPetersburgBonusV2:
+        "<li>Uranminen haben 2x Produktion</li><li>Urananreicherungsanlagen haben eine doppelte Kapazität</li><li>Der Urantransport kostet 50% weniger Kraftstoff</li><li>Kostenloser Waffentransport</li><li>Das Projekt Wostok hat eine Kapazität von 2x</li>",
+    ToulouseBonusV2:
+        "<li>Titanminen haben 2x Prdouktion</li><li>Urananreicherungsanlagen haben eine doppelte Produktivität</li><li>Triebwerksfabriken haben eine Kapazität von 2x</li><li>Flugzeugfabriken haben 2x Produktivität</li><li>Raketenfabriken haben eine Kapazität von 2x</li>",
+    BuildingPermitsNeededDesc: "Dieses Gebäude funktioniert nicht, weil Sie nicht genügend Baugenehmigungen haben",
+    BuildingPermitsNeeded: "Baugenehmigungen erforderlich",
+    BuyMissingPermits: "Fehlende Baugenehmigungen kaufen",
+    GPUIsBusy: "Ihre GPU ist ausgelastet",
+    GPUIsBusyDesc:
+        "Ihr Betriebssystem hat die Grafik des Spiels angehalten, da die GPU mit anderen Aufgaben beschäftigt ist. Sie können das Spiel neu laden, um fortzufahren. Wenn es nicht funktioniert, starte das Spiel neu",
+    SaveAndReloadGame: "Spiel speichern und neu laden",
 };

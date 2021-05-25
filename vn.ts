@@ -586,14 +586,10 @@ export const VN = {
         "<li>Nhà máy thép sản lượng x2</li><li>Nhà máy thép không gỉ sản lượng x2</li><li>Vận chuyển sắt miễn phí</li><li>Vận chuyển thép giảm 50% nhiên liệu</li><li>Số lượng Tự động Bán hàng x2</li><li>Không có hiệu suất trên ô</li>",
     Oslo: "Oslo",
     StPetersburg: "St. Petersburg",
-    StPetersburgBonus:
-        "<li>Mỏ Uranium sản lượng x2</li><li>Nhà máy làm giàu Uranium sản lượng x2</li><li>Vận chuyển Uranium giảm 50% nhiên liệu</li><li>Vận chuyển súng miễn phí</li><li>Xưởng tên lửa sử dụng Uranium giàu thay vì Titan và Uranium</li>",
     Hamburg: "Hamburg",
     HamburgBonus:
         "<li>Xưởng khinh khí cầu đã được mở khóa</li><li>Xưởng bán dẫn sản lượng x2</li><li>Xưởng đóng tàu sản lượng x2</li><li>Xưởng ô tô sản lượng x2</li><li>Xưởng pin Li-ti i-ông đã được mở khóa</li>",
     Toulouse: "Toulouse",
-    ToulouseBonus:
-        "<li>Mỏ titan sản lượng x2</li><li>Nhà máy làm giàu Uranium hiệu suất x2</li><li>Xưởng động cơ phản lực sản lượng x2</li><li>Xưởng lắp ráp máy bay hiệu suất x2</li><li>Xưởng rocket sử dụng Uranium thay vì Uranium giàu</li>",
     Rome: "Rome",
     RomeBonus:
         "<li>Đấu trường đã được mở khóa</li><li>Đấu trường hiệu suất x2</li><li>Khởi đầu với Trung tâm Chính sách cấp 5</li><li>Nhà hát lớn sản lượng x2</li><li>Phòng thu thanh cũng sản xuất điểm văn hóa</li>",
@@ -851,8 +847,6 @@ export const VN = {
     AchievementOsaka1000: "Công tước",
     AchievementOsaka1000Desc: "Kiếm được 1000 Tiền Thụy Sĩ ở Osaka trong một lần chơi",
     SteamAutoCloudBackup: "Tự động lưu lên Đám mây của Steam",
-    SteamAutoCloudBackupDesc:
-        "Trò chơi tự động lưu trên máy của bạn. Mỗi 10 phút bản lưu này sẽ được đồng bộ lên Đám mây của Steam. Bạn có thể ép lưu lên Đám mây của Steam bất kỳ lúc nào",
     SteamAutoCloudBackupFailed: "Tự động lưu lên Đám mây của Steam không thành công: %{error}",
     SteamManualBackup: "Ép lưu lên Đám mây của Steam",
     UILoading: "Đang đọc dữ liệu...",
@@ -987,4 +981,53 @@ export const VN = {
     ResourceBoosterBannerDesc:
         "💡 You currently have %{number} resource boosters - the power and science input of each is scaled to the number of resource boosters you currently have",
     ResourceBoosterDesc: "Boost the output of adjacent mines",
+    BlockUserChatTitle: "Block %{user}",
+    BlockUserChatAction: "Block",
+    BlockUserChatDesc:
+        "The block will be in effect during this game session and you cannot undo this unless you restart the game",
+    ChangeNameCooldown: "You can only change your name once every %{hour} hours",
+    AtomicBombFactory: "Atomic Bomb Factory",
+    AtomicBomb: "Atomic Bomb",
+    DynamiteFactory: "Dynamite Factory",
+    Dynamite: "Dynamite",
+    NuclearMissileFactory: "Nuclear Missile Factory",
+    NuclearMissile: "Nuclear Missile",
+    LiquidPropellantFactory: "Liquid Propellant Factory",
+    GasPropellantFactory: "Gas Propellant Factory",
+    Propellant: "Propellant",
+    ProjectV2: "Project V-2",
+    ICBMFactory: "ICBM Factory",
+    ICBM: "ICBM",
+    RadarFactory: "Radar Factory",
+    Radar: "Radar",
+    SpaceForceCommand: "Space Force Command",
+    SpaceForce: "Space Force",
+    SteamAutoCloudBackupDescV2:
+        "Your latest progress is saved to Steam Cloud and synced across devices. The game also backs up your save every 10 minutes automatically to Steam Cloud. You can force a backup at any time",
+    SpaceColony: "Space Colony",
+    SpaceColonyInc: "Space Colony",
+    ProjectVostok: "Project Vostok",
+    AdjacentBonusSquare: "Adjacent Bonus Square",
+    AdjacentBonusSquareDesc: "Adjacent bonus is 50% more effective, but tile modifiers scale from -15% to +15%",
+    ResourceBoosterSquare: "Resource Booster Square",
+    ResourceBoosterSquareDesc:
+        "Resource boosters provide 25% more boost but their science input and power usage also increase by 25%",
+    SteelMillx2: "Steel Furnace Modernization",
+    SteelMillx2Desc: "Steel mills and stainless steel plants have 2x capacity but uses 2x power",
+    IronSteelZone: "Iron Steel Zone",
+    IronSteelZoneDesc:
+        "Resource booster provide a %{percent} output bonus to adjacent steel mills or stainless steel plants for each working iron mine it is boosting",
+    FuelDynamite: "Fuel Dynamite",
+    FuelDynamiteDesc: "Dynamite factories use your current fuel instead of oil",
+    StPetersburgBonusV2:
+        "<li>Uranium mines have 2x output</li><li>Uranium enrichment plants have 2x capacity</li><li>Uranium transportation costs 50% less fuel</li><li>Free gun transportation</li><li>Project Vostok has 2x capacity</li>",
+    ToulouseBonusV2:
+        "<li>Titanium mines have 2x output</li><li>Uranium enrichment plants have 2x productivity</li><li>Jet engine factories have 2x capacity</li><li>Aircraft factories have 2x productivity</li><li>Rocket factories have 2x capacity</li>",
+    BuildingPermitsNeededDesc: "This building is not working because you don't have enough building permits",
+    BuildingPermitsNeeded: "Building Permits Needed",
+    BuyMissingPermits: "Buy Missing Permits",
+    GPUIsBusy: "Your GPU is Busy",
+    GPUIsBusyDesc:
+        "Your operating system has paused the game's graphics because the GPU is busy with other tasks. You can reload the game to resume. If it doesn't work, try restarting the game",
+    SaveAndReloadGame: "Save And Reload Game",
 };
